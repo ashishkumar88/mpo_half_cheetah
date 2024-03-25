@@ -1,0 +1,22 @@
+env_name : Ant-v4
+actor_hidden_dim : 256
+critic_hidden_dim : 256
+actor_lr : 0.0001
+critic_lr : 0.0001
+gamma : 0.99
+eta_mu_lr : 0.0001
+eta_sigma_lr : 0.0001
+epsilon_g: 0.1
+epsilon_mu: 0.1
+epsilon_sigma: 0.0001
+replay_buffer_size: 10000
+batch_size: 256
+experiment_name: ant_mpo_experiment
+episodes_total: 100000
+evaluation_episodes: 10
+number_episodes_per_update: 20
+max_steps_per_episode: 300
+num_updates_per_iter: 100
+render: False
+
+## END OF CONFIG FILE

@@ -1,0 +1,8 @@
+gymnasium==0.29.1
+numpy==1.26.4
+mujoco-py<2.2,>=2.1
+cython<3
+gymnasium[mujoco]
+torchrl==0.3.1
+pyyaml==6.0.1
+mujoco==2.3.0
